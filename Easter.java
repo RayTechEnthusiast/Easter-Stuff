@@ -20,6 +20,6 @@ public class Easter {
         int n = (h + r - 7 * m + 114) / 31;
         int p = ((h + r - 7 * m + 114) % 31) + 1;
 
-        System.out.println("Easter in " + y + " falls on " + n + "/" + p);
+        System.out.print("Easter in " + y + " falls on " + n + "/" + p);
     }
 }
